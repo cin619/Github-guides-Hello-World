@@ -136,52 +136,41 @@
 <hr>
 
 <blockquote>
-  <p><strong>Tip</strong>: You can use <a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#using-emoji">emoji</a> and <a href="https://help.github.com/articles/file-attachments-on-issues-and-pull-requests/">drag and drop images and gifs</a> onto comments and Pull Requests.</p>
+  <p><strong>Tip</strong>:你可以在评论和Pull Request中使用<a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/#using-emoji">emoji</a> 和<a href="https://help.github.com/articles/file-attachments-on-issues-and-pull-requests/">drag and drop images and gifs</a></p>
 </blockquote>
 
-<p><a id="merge" title="Merge Pull Request" class="toc-item"></a></p>
+## Step 5. 合并你的Pull Request
 
-<h2>Step 5. Merge your Pull Request</h2>
-
-<p>In this final step, it’s time to bring your changes together – merging your <code class="highlighter-rouge">readme-edits</code> branch into the <code class="highlighter-rouge">master</code> branch.</p>
+<p>最后一步就是要将你的更改放在一起 – 将<code class="highlighter-rouge">readme-edits</code>分支合并（merging）到<code class="highlighter-rouge">master</code>分支中去</p>
 
 <ol>
-  <li>Click the green <strong>Merge pull request</strong> button to merge the changes into <code class="highlighter-rouge">master</code>.</li>
-  <li>Click <strong>Confirm merge</strong>.</li>
-  <li>Go ahead and delete the branch, since its changes have been incorporated, with the <strong>Delete branch</strong> button in the purple box.</li>
+  <li>点击绿色<strong>Merge pull request</strong>按钮将更改合并到<code class="highlighter-rouge">master</code>分支中</li>
+  <li>点击<strong>Confirm merge</strong></li>
+  <li>继续并删除branch，因为更改已经被合并了，点击紫色框中的<strong>Delete branch</strong>按钮</li>
 </ol>
 
-<p><img src="/activities/hello-world/merge-button.png" alt="merge">
-<img src="/activities/hello-world/delete-button.png" alt="delete"></p>
+<p><img src="https://github.com/cin619/Github-guides-Hello-World/blob/master/images/merge-button.png" alt="merge">
+<img src="https://github.com/cin619/Github-guides-Hello-World/blob/master/images/delete-button.png" alt="delete"></p>
 
-<h3>Celebrate!</h3>
+## Celebrate!
 
-<p>By completing this tutorial, you’ve learned to create a project and make a pull request on GitHub! <img class="emoji" title=":tada:" alt=":tada:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f389.png" height="20" width="20"> <img class="emoji" title=":octocat:" alt=":octocat:" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="20" width="20"> <img class="emoji" title=":zap:" alt=":zap:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/26a1.png" height="20" width="20"></p>
+<p>通过完成这个教程，你已经学习了创建一个项目并将其pull request到GitHub中去！<img class="emoji" title=":tada:" alt=":tada:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f389.png" height="20" width="20"> <img class="emoji" title=":octocat:" alt=":octocat:" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="20" width="20"> <img class="emoji" title=":zap:" alt=":zap:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/26a1.png" height="20" width="20"></p>
 
-<p>Here’s what you accomplished in this tutorial:</p>
+<p>这里是你在本教程完成的内容：</p>
 
 <ul>
-  <li>Created an open source repository</li>
-  <li>Started and managed a new branch</li>
-  <li>Changed a file and committed those changes to GitHub</li>
-  <li>Opened and merged a Pull Request</li>
+  <li>创建了一个开源repository</li>
+  <li>开始并管理了一个新的branch</li>
+  <li>修改了一个文件并将其提交到GitHub</li>
+  <li>打开并合并了一个Pull Request</li>
 </ul>
 
-<p>Take a look at your GitHub profile and you’ll see your new <a href="https://help.github.com/articles/viewing-contributions">contribution squares</a>!</p>
+<p>看看你的GitHub个人资料，你会看到你的新的贡献方图<a href="https://help.github.com/articles/viewing-contributions">contribution squares</a></p>
 
-<p>To learn more about the power of Pull Requests, we recommend reading the <a href="http://guides.github.com/overviews/flow/">GitHub Flow Guide</a>. You might also visit <a href="http://github.com/explore">GitHub Explore</a> and get involved in an Open Source project <img class="emoji" title=":octocat:" alt=":octocat:" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="20" width="20"></p>
+<p>想要学习更多的Pull Request，我们推荐阅读 <a href="http://guides.github.com/overviews/flow/">GitHub Flow Guide</a>。你也可以浏览<a href="http://github.com/explore">GitHub Explore</a>并参与到开源项目中去<img class="emoji" title=":octocat:" alt=":octocat:" src="https://assets-cdn.github.com/images/icons/emoji/octocat.png" height="20" width="20"></p>
 
 <hr>
 
 <blockquote>
-  <p><strong>Tip</strong>: Check out our other <a href="http://guides.github.com">Guides</a>, <a href="http://youtube.com/githubguides">YouTube Channel</a> and <a href="https://services.github.com/on-demand/">On-Demand Training</a> for more on how to get started with GitHub.</p>
+  <p><strong>Tip</strong>: 浏览其他的教程 <a href="http://guides.github.com">Guides</a>，<a href="http://youtube.com/githubguides">YouTube Channel</a>和<a href="https://services.github.com/on-demand/">On-Demand Training</a>来获得更多GitHub入门指南</p>
 </blockquote>
-
-
-
-
-
-
-
-
-
