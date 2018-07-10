@@ -98,8 +98,6 @@
 
 ### 为README的修改打开一个Pull Request
 
-<p><em>点击图片以获得大图</em></p>
-
 <table>
   <thead>
     <tr>
