@@ -8,7 +8,7 @@ A translation of github guides--hello world
 <p>3. 写一个简短的描述
 <p>4. 选择<big><b>Initialize this repository with a README</b></big>
 <p>
-![image](https://github.com/cin619/Github-guides-Hello-World/blob/master/images/create-new-repo.png)
+<p><img src="https://github.com/cin619/Github-guides-Hello-World/blob/master/images/create-new-repo.png" alt="new-repo-form"></p>
 <p>点击<big><b>Create repository</b></big>
 # Step 2.创建一个Branch
 <big><b>Branching</b></big>是在同一时间编辑不同版本的repository的工作方式
