@@ -68,67 +68,65 @@
 
 <p>哇喔！现在你在你的 <code class="highlighter-rouge">readme-edits</code> 分支的代码视图，它是<code class="highlighter-rouge">master</code>分支的副本。我们可以对其进行编辑</p>
 
-<p>在GitHub上，保存更新叫做<em>commits</em>。每个commit都有一个<em>commit message</em>，这是用来解释为什么要做这样的更新。Commit messages显示了更新的历史，这样其他人就可以理解你做了什么改变以及为什么这么做</p>
+<p>在GitHub上，保存更改叫做<em>commits</em>。每个commit都有一个<em>commit message</em>，这是用来解释为什么要做这样的更改。Commit messages显示了更改的历史，这样其他人就可以理解你做了什么改变以及为什么这么做</p>
 
 ### 制作和提交修改
 
 <ol>
   <li>点击<code class="highlighter-rouge">README.md</code>文件</li>
-  <li>点击<span class="octicon octicon-pencil"></span>右上角的铅笔图标进入编辑文件视图</li>
-  <li>In the editor, write a bit about yourself.</li>
-  <li>Write a commit message that describes your changes.</li>
-  <li>Click <strong>Commit changes</strong> button.</li>
+  <li>点击文件视图右上角的铅笔图标进入编辑</li>
+  <li>在编辑器中写一点关于你自己的情况</li>
+  <li>写一个commit message描述你的更改</li>
+  <li>点击<strong>Commit changes</strong>按钮</li>
 </ol>
 
-<p><img src="/activities/hello-world/commit.png" alt="commit"></p>
+<p><img src="https://github.com/cin619/Github-guides-Hello-World/blob/master/images/commit.png" alt="commit"></p>
 
-<p>These changes will be made to just the README file on your <code class="highlighter-rouge">readme-edits</code> branch, so now this branch contains content that’s different from <code class="highlighter-rouge">master</code>.</p>
+<p>这些更改只会应用于你的<code class="highlighter-rouge">readme-edits</code>branch中的README文件，所以现在这个分支包含的内容不同于<code class="highlighter-rouge">master</code>分支了</p>
 
-<p><a id="pr" title="Open a Pull Request" class="toc-item"></a></p>
+## Step 4. 打开一个Pull Request
 
-<h2>Step 4. Open a Pull Request</h2>
+<p>这样你就修改了<code class="highlighter-rouge">master</code>下的一个分支了，然后你可以打开<em>pull request</em></p>
 
-<p>Nice edits! Now that you have changes in a branch off of <code class="highlighter-rouge">master</code>, you can open a <em>pull request</em>.</p>
+<p>Pull Request是在GitHub中进行合作的核心。当你打开一个<em>pull request</em>，你就是在提出你的修改并希望其他人审核并提取（pull in）你的贡献，然后将其合并到他们的branch中。Pull requests显示了两个branch的<em>diffs</em>，或differences。修改、添加和删减以绿色和红色显示</p>
 
-<p>Pull Requests are the heart of collaboration on GitHub. When you open a <em>pull request</em>, you’re proposing your changes and requesting that someone review and pull in your contribution and merge them into their branch. Pull requests show <em>diffs</em>, or differences, of the content from both branches. The changes, additions, and subtractions are shown in green and red.</p>
+<p>只要你有不同的版本（修改），不管代码是否完成，你都可以打开一个pull request并开始讨论</p>
 
-<p>As soon as you make a commit, you can open a pull request and start a discussion, even before the code is finished.</p>
+<p>通过在你的pull request信息中使用GitHub的<a href="https://help.github.com/articles/about-writing-and-formatting-on-github/#text-formatting-toolbar">@mention system</a>，你可以从一些特定的人或团队得到反馈，不论他们是在大厅还是10个时区之外</p>
 
-<p>By using GitHub’s <a href="https://help.github.com/articles/about-writing-and-formatting-on-github/#text-formatting-toolbar">@mention system</a> in your pull request message, you can ask for feedback from specific people or teams, whether they’re down the hall or 10 time zones away.</p>
+<p>你甚至可以在你自己的repository中打开pull request并合并他们。在进行大项目之前，这是学习GitHub Flow的好方法</p>
 
-<p>You can even open pull requests in your own repository and merge them yourself. It’s a great way to learn the GitHub Flow before working on larger projects.</p>
+### 为README的修改打开一个Pull Request
 
-<h4>Open a Pull Request for changes to the README</h4>
-
-<p><em>Click on the image for a larger version</em></p>
+<p><em>点击图片以获得大图</em></p>
 
 <table>
   <thead>
     <tr>
-      <th>Step</th>
-      <th>Screenshot</th>
+      <th>步骤</th>
+      <th>截图</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Click the <span class="octicon octicon-git-pull-request"></span> <strong>Pull Request</strong> tab, then from the Pull Request page, click the green <strong>New pull request</strong> button.</td>
-      <td><a href="pr-tab.gif"><img src="/activities/hello-world/pr-tab.gif" alt="pr-tab"></a></td>
+      <td>点击<strong>Pull Request</strong>标签然后在Pull Request页，点击绿色的<strong>New pull request</strong>按键.</td>
+      <td><a href="pr-tab.gif"><img src="https://github.com/cin619/Github-guides-Hello-World/blob/master/images/pr-tab.gif" alt="pr-tab"></a></td>
     </tr>
     <tr>
-      <td>In the <strong>Example Comparisons</strong> box, select the branch you made, <code class="highlighter-rouge">readme-edits</code>, to compare with <code class="highlighter-rouge">master</code> (the original).</td>
-      <td><a href="pick-branch.png"><img src="/activities/hello-world/pick-branch.png" alt="branch"></a></td>
+      <td>在<strong>示例比较（Example Comparisons）</strong>框中，选择你生成的branch，<code class="highlighter-rouge">readme-edits</code>，与<code class="highlighter-rouge">master</code>比较(原始版本).</td>
+      <td><a href="pick-branch.png"><img src="https://github.com/cin619/Github-guides-Hello-World/blob/master/images/pick-branch.png" alt="branch"></a></td>
     </tr>
     <tr>
-      <td>Look over your changes in the diffs on the Compare page, make sure they’re what you want to submit.</td>
-      <td><a href="diff.png"><img src="/activities/hello-world/diff.png" alt="diff"></a></td>
+      <td>在比较页面查看你的更改，确保它们是你想提交的内容</td>
+      <td><a href="diff.png"><img src="https://github.com/cin619/Github-guides-Hello-World/blob/master/images/diff.png" alt="diff"></a></td>
     </tr>
     <tr>
-      <td>When you’re satisfied that these are the changes you want to submit, click the big green <strong>Create Pull Request</strong> button.</td>
-      <td><a href="create-pr.png"><img src="/activities/hello-world/create-pr.png" alt="create-pull"></a></td>
+      <td>当你确认之后，点击绿色<strong>Create Pull Request</strong>按钮.</td>
+      <td><a href="create-pr.png"><img src="https://github.com/cin619/Github-guides-Hello-World/blob/master/images/create-pr.png" alt="create-pull"></a></td>
     </tr>
     <tr>
-      <td>Give your pull request a title and write a brief description of your changes.</td>
-      <td><a href="pr-form.png"><img src="/activities/hello-world/pr-form.png" alt="pr-form"></a></td>
+      <td>为你的pull request添加一个标题，并对你的修改进行简短的描述</td>
+      <td><a href="pr-form.png"><img src="https://github.com/cin619/Github-guides-Hello-World/blob/master/images/pr-form.png" alt="pr-form"></a></td>
     </tr>
   </tbody>
 </table>
