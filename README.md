@@ -131,7 +131,7 @@
   </tbody>
 </table>
 
-<p>When you’re done with your message, click <strong>Create pull request</strong>!</p>
+<p>当你完成信息填写之后，点击<strong>Create pull request</strong></p>
 
 <hr>
 
