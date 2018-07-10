@@ -58,7 +58,7 @@
 
 <p>2. 点击顶部文件的下拉列表 <strong>branch:master</strong></p>
 
-<p>3. 在新分支文本框输入一个branch名，<code class="highlighter-rouge">readme-edits<code></p>
+<p>3. 在新分支文本框输入一个branch名，<code class="highlighter-rouge">readme-edits</code></p>
 
 <p>4. 选择蓝色的<strong>Create branch</strong>框 或者 按“Enter”键</p>
 
