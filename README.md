@@ -10,13 +10,12 @@
   
 ### 创建一个新的repository
 
-<p>1. 在右上角，靠近你的头像旁边，点击<span class="octicon octicon-plus"></span>，然后选择<strong>New repository</strong></p>
-
-<p>2. 命名你的repository - <code class="highlighter-rouge">hello-world</code></p>
-
-<p>3. 写一个简短的描述</p>
-
-<p>4. 选择<strong>Initialize this repository with a README</strong></p>
+<ol>
+  <li>1. 在右上角，靠近你的头像旁边，点击<span class="octicon octicon-plus"></span>，然后选择<strong>New repository</strong></p></li>
+  <li>2. 命名你的repository - <code class="highlighter-rouge">hello-world</code></p></li>
+  <li>3. 写一个简短的描述</p></li>
+  <li>4. 选择<strong>Initialize this repository with a README</strong></p></li>
+</ol>
 
 <p><img src="https://github.com/cin619/Github-guides-Hello-World/blob/master/images/create-new-repo.png" alt="new-repo-form"></p>
 
@@ -54,29 +53,28 @@
 
 ### 创建一个新的branch
 
-<p>1. 进入你的新的repository<code class="highlighter-rouge">hello-world</code></p>
-
-<p>2. 点击顶部文件的下拉列表 <strong>branch:master</strong></p>
-
-<p>3. 在新分支文本框输入一个branch名，<code class="highlighter-rouge">readme-edits</code></p>
-
-<p>4. 选择蓝色的<strong>Create branch</strong>框 或者 按“Enter”键</p>
+<ol>
+  <li>1. 进入你的新的repository<code class="highlighter-rouge">hello-world</code></p></li>
+  <li>2. 点击顶部文件的下拉列表 <strong>branch:master</strong></p></li>
+  <li>3. 在新分支文本框输入一个branch名，<code class="highlighter-rouge">readme-edits</code></p></li>
+  <li>4. 选择蓝色的<strong>Create branch</strong>框 或者 按“Enter”键</p></li>
+</ol>
 
 <p><img src="https://github.com/cin619/Github-guides-Hello-World/blob/master/images/readme-edits.gif" alt="branch gif"></p>
 
-<p>这样你就有两个分支了，<code class="highlighter-rouge">master</code>和<code class="highlighter-rouge">readme-edits<code>。它们看起来是一样的，但之后就不是了，因为我们需要在新分支中进行编辑</p>
+<p>这样你就有两个分支了，<code class="highlighter-rouge">master</code>和<code class="highlighter-rouge">readme-edits</code>。它们看起来是一样的，但之后就不是了，因为我们需要在新分支中进行编辑</p>
 
 ## 制作和提交（commit）修改
 
 <p>哇喔！现在你在你的 <code class="highlighter-rouge">readme-edits</code> 分支的代码视图，它是<code class="highlighter-rouge">master</code>分支的副本。我们可以对其进行编辑</p>
 
-<p>在GitHub上，saved changes are called <em>commits</em>. Each commit has an associated <em>commit message</em>, which is a description explaining why a particular change was made. Commit messages capture the history of your changes, so other contributors can understand what you’ve done and why.</p>
+<p>在GitHub上，保存更新叫做<em>commits</em>。每个commit都有一个<em>commit message</em>，这是用来解释为什么要做这样的更新。Commit messages显示了更新的历史，这样其他人就可以理解你做了什么改变以及为什么这么做</p>
 
-<h4>Make and commit changes</h4>
+### 制作和提交修改
 
 <ol>
-  <li>Click the <code class="highlighter-rouge">README.md</code> file.</li>
-  <li>Click the <span class="octicon octicon-pencil"></span> pencil icon in the upper right corner of the file view to edit.</li>
+  <li>点击<code class="highlighter-rouge">README.md</code>文件</li>
+  <li>点击<span class="octicon octicon-pencil"></span>右上角的铅笔图标进入编辑文件视图</li>
   <li>In the editor, write a bit about yourself.</li>
   <li>Write a commit message that describes your changes.</li>
   <li>Click <strong>Commit changes</strong> button.</li>
